@@ -1,10 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './pages/Home';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h2 className='text-2xl font-bold'>This is a Heading 2</h2>
+      <Navbar />
+      <Home />
     </div>
   );
 }
