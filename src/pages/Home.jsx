@@ -53,7 +53,7 @@ const Home = () => {
                     <p className='text-lg'>Who is Nextcent suitable for?</p>
                 </div>
                 <div className='flex border-dashed border-2 border-sky-500 align-center justify-center'>
-                    <div className='w-11/12 border-dashed border-2 border-sky-500 grid grid-cols-3 place-center'>
+                    <div className='w-11/12 p-2 border-dashed border-2 border-sky-500 grid grid-cols-3 place-center'>
                         <Comcard val={icon1} head={"Membership Organisations"} para={"Our membership management software provides full automation of membership renewals and payments"} />
                         <Comcard val={icon2} head={"National Associations"} para={"Our membership management software provides full automation of membership renewals and payments"} />
                         <Comcard val={icon3} head={"Clubs And Groups"} para={"Our membership management software provides full automation of membership renewals and payments"} />
