@@ -21,10 +21,10 @@ const Home = () => {
             <div className="flex flex-col items-center justify-around py-10 md:py-20">
                 <div className='w-10/12 flex flex-col-reverse md:flex-row items-center justify-between px-4 md:px-0'>
                     <div className='flex flex-col gap-3 items-center md:items-start text-center md:text-left'>
-                        <h1 className='font-inter text-5xl md:text-8xl font-semibold leading-tight md:leading-snug tracking-normal'>
+                        <h1 className='font-inter text-5xl md:text-7xl font-semibold leading-tight md:leading-snug tracking-normal'>
                             Lessons and insights
                         </h1>
-                        <h1 className='font-inter text-5xl md:text-8xl font-semibold leading-tight md:leading-snug tracking-normal text-[#4CAF4F]'>from 8 years</h1>
+                        <h1 className='font-inter text-5xl md:text-7xl font-semibold leading-tight md:leading-snug tracking-normal text-[#4CAF4F]'>from 8 years</h1>
                         <p className='text-lg'>Where to grow your business as a photographer: site or social media?</p>
                         <button className='bg-[#4CAF4F] text-white px-8 py-3.5 rounded-md'>Register</button>
                     </div>
@@ -49,9 +49,10 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='bg-white py-10 md:py-20'>
+            <div className='bg-white py-10 md:py-3'>
                 <div className='container mx-auto'>
-                    <h1 className='text-4xl md:text-5xl font-semibold text-center mb-5'>Manage your entire community in a single system</h1>
+                    <h1 className='text-4xl md:text-5xl font-semibold text-center mb-5'>Manage your entire community</h1>
+                    <h1 className='text-4xl md:text-5xl font-semibold text-center mb-5'>in a single system</h1>
                     <p className='text-lg text-center mb-10'>Who is Nextcent suitable for?</p>
                     <div className='w-10/12 m-auto grid grid-cols-1 md:grid-cols-3 gap-20'>
                         <Comcard val={icon1} head={"Membership Organisations"} para={"Our membership management software provides full automation of membership renewals and payments"} />
