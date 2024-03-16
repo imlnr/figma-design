@@ -1,6 +1,14 @@
 import React from 'react'
 import illu from '../assets/Illustration.png'
 import dot from "../assets/Dot.png"
+import cli1 from "../assets/Logo (1).png"
+import cli2 from "../assets/Logo (2).png"
+import cli3 from "../assets/Logo (3).png"
+import cli4 from "../assets/Logo (4).png"
+import cli5 from "../assets/Logo (5).png"
+import cli6 from "../assets/Logo (6).png"
+import cli7 from "../assets/Logo (7).png"
+import Clientlogo from '../components/Clientlogo'
 const Home = () => {
     return (
         <div>
@@ -18,6 +26,19 @@ const Home = () => {
                 </div>
                 <div className=''>
                     <img src={dot} alt="dot" />
+                </div>
+            </div>
+            <div className='mt-7 h-48 border-dashed border-2 border-sky-500 flex flex-col justify-around items-center'>
+                <h1 className='text-4xl font-semibold'>Our Clients</h1>
+                <p className='text-lg'>We have been working with some Fortune 500+ clients</p>
+                <div className='w-11/12 border-dashed border-2 border-sky-500 grid h-24 grid-cols-7 place-content-around'>
+                    <Clientlogo val={cli1} />
+                    <Clientlogo val={cli2} />
+                    <Clientlogo val={cli3} />
+                    <Clientlogo val={cli7} />
+                    <Clientlogo val={cli4} />
+                    <Clientlogo val={cli5} />
+                    <Clientlogo val={cli6} />
                 </div>
             </div>
         </div>
