@@ -44,8 +44,9 @@ const Navbar = () => {
                     <Link to="#">FAQ</Link>
                 </div>
                 {isOpen && (
-                    <div className="lg:hidden absolute top-16 left-0 h-full w-full bg-black text-black py-4">
-                        <div className="flex flex-col items-center text-white space-y-10">
+                    <div className="lg:hidden absolute top-0 left-0 h-full w-full bg-black text-black ">
+                        <div className="flex flex-col items-center text-white space-y-10 p-4">
+                            <div onClick={toggleMenu} className='self-end text-4xl'>x</div>
                             <Link to="#" onClick={toggleMenu}>
                                 Home
                             </Link>
