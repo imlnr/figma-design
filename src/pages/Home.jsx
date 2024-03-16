@@ -15,6 +15,7 @@ import icon3 from "../assets/Icon (2).png";
 import Clientlogo from '../components/Clientlogo';
 import Comcard from '../components/Comcard';
 import pass from '../assets/rafiki.png'
+import pass2 from '../assets/pana.png'
 
 const Home = () => {
     return (
@@ -75,6 +76,17 @@ const Home = () => {
             <div className='mt-7'>
                 <div className='w-full md:w-9/12 lg:w-10/12 xl:w-9/12 mx-auto flex flex-col lg:flex-row items-center justify-between gap-10'>
                     <img src={pass} alt="" />
+                    <div className='w-full xl:w-1/2 sm:11/12 p-6 md:w-11/12'>
+                        <h1 className='text-2xl md:text-4xl font-semibold mb-5'>The unseen of spending three years at Pixelgrade</h1>
+                        <p className='text-sm md:text-base'>When joining the JustGo Community, your success becomes our success. In other words, our Customer Success team will be on hand from day one to ensure we understand your requirements, share your goals and work with you for a smooth adoption of our software.</p>
+                        <button className='bg-[#4CAF4F] text-white px-5 py-2 mt-3 rounded-md'>Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div className='mt-7'>
+                <div className='w-full md:w-9/12 lg:w-10/12 xl:w-9/12 mx-auto flex flex-col lg:flex-row items-center justify-between gap-10'>
+                    <img src={pass2} alt="" />
                     <div className='w-full xl:w-1/2 sm:11/12 p-6 md:w-11/12'>
                         <h1 className='text-2xl md:text-4xl font-semibold mb-5'>The unseen of spending three years at Pixelgrade</h1>
                         <p className='text-sm md:text-base'>When joining the JustGo Community, your success becomes our success. In other words, our Customer Success team will be on hand from day one to ensure we understand your requirements, share your goals and work with you for a smooth adoption of our software.</p>
