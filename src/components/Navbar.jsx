@@ -11,7 +11,7 @@ const Navbar = () => {
 
     return (
         <div className="p-4 w-full">
-            <nav className="w-11/12 m-auto container mx-auto flex justify-between items-center">
+            <nav className="w-11/12 h-19 m-auto container mx-auto flex justify-between items-center">
                 <div className="text-white font-bold">
                     <img src={logo} alt="" />
                 </div>
@@ -64,7 +64,7 @@ const Navbar = () => {
                             <Link to="#" onClick={toggleMenu}>
                                 FAQ
                             </Link>
-                            <button className="rounded-md">Login</button>
+                            <button className="text-[#4CAF4F] rounded-md">Login</button>
                             <button className="bg-[#4CAF4F] text-white px-3 py-1 rounded-md">
                                 Signup
                             </button>
