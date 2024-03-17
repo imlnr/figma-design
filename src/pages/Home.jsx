@@ -23,6 +23,10 @@ import icon6 from "../assets/Icon (5).png"
 import icon7 from "../assets/Icon (6).png"
 import Mcep from '../components/Mcep';
 import tesla from "../assets/image 9.png"
+import Cards from '../components/Cards';
+import image1 from '../assets/image 18.png'
+import image2 from "../assets/image 19.png";
+import image3 from '../assets/image 20.png'
 
 const Home = () => {
     return (
@@ -103,8 +107,8 @@ const Home = () => {
                 <div className='w-full md:w-9/12 lg:w-10/12 xl:w-9/12 mx-auto flex flex-col lg:flex-row items-center justify-between gap-10'>
                     <img src={pass2} alt="" />
                     <div className='w-full xl:w-1/2 sm:11/12 p-6 md:w-11/12'>
-                        <h1 className='text-2xl md:text-4xl font-semibold mb-5'>The unseen of spending three years at Pixelgrade</h1>
-                        <p className='text-sm md:text-base'>When joining the JustGo Community, your success becomes our success. In other words, our Customer Success team will be on hand from day one to ensure we understand your requirements, share your goals and work with you for a smooth adoption of our software.</p>
+                        <h1 className='text-2xl md:text-4xl font-semibold mb-5'>How to design your site footer like we did</h1>
+                        <p className='text-sm md:text-base'>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id gravida.</p>
                         <button className='bg-[#4CAF4F] text-white px-5 py-2 mt-3 rounded-md'>Learn More</button>
                     </div>
                 </div>
@@ -114,7 +118,7 @@ const Home = () => {
                 <div className='w-11/12 md:w-9/12 mt-2 lg:w-9/12 flex flex-col md:flex-row items-center justify-between gap-10'>
                     <img className='m-auto md:m-0' src={tesla} alt="" />
                     <div className='flex flex-col items-start justify-center gap-8'>
-                        <p className=''>“We have enjoyed working with the JustGo system to setup and go live with our new membership platform. The initial effort to organise it along the lines of how our sport currently works was quick and relatively easy. The new system has already massively improved the time and effort it takes to setup and process member and club applications. It will help us to communicate with people in our sport in a much more effective way, and collect data to help us improve how our sport is governed.”</p>
+                        <p className=''>Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit. Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget. Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim finibus ac sit amet magna.</p>
                         <div>
                             <h3 className='text-[#4CAF4F] text-xl md:text-2xl'>Tim Smith</h3>
                             <p>British Dragon Boat Racing Association</p>
@@ -132,8 +136,36 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            {/* <div className='w-full'>
+                <div className='w-10/12 m-auto'>
+                    <div className='text-center mt-7'>
+                        <h1 className='text-2xl md:text-4xl font-semibold mb-5'>Caring is the new marketing</h1>
+                        <p>The Nexcent blog is the best place to read about the latest membership insights, <br />trends and more. See who's joining the community, read about how our community <br />are increasing their membership income and lot's more.​</p>
+                    </div>
+                    <div className='grid grid-cols-3 place-items-center mt-5'>
+                        <Cards img={image1} text={"Creating Streamlined Safeguarding Processes with OneRen"} />
+                        <Cards img={image2} text={"What are your safeguarding responsibilities and how can you manage them?"} />
+                        <Cards img={image3} text={"Revamping the Membership Model with Triathlon Australia"} />
+                    </div>
+                </div>
+            </div> */}
+            <div className='w-full'>
+                <div className='w-11/12 mx-auto'>
+                    <div className='text-center mt-7'>
+                        <h1 className='text-2xl md:text-4xl font-semibold mb-5'>Caring is the new marketing</h1>
+                        <p className='text-sm md:text-base lg:text-lg xl:text-xl'>The Nexcent blog is the best place to read about the latest membership insights, <br />trends and more. See who's joining the community, read about how our community <br />are increasing their membership income and lot's more.​</p>
+                    </div>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 place-items-center mt-5'>
+                        <Cards img={image1} text={"Creating Streamlined Safeguarding Processes with OneRen"} />
+                        <Cards img={image2} text={"What are your safeguarding responsibilities and how can you manage them?"} />
+                        <Cards img={image3} text={"Revamping the Membership Model with Triathlon Australia"} />
+                    </div>
+                </div>
+            </div>
 
+            <div>
 
+            </div>
         </div>
     );
 };
