@@ -110,32 +110,8 @@ const Home = () => {
                 </div>
             </div>
 
-            {/* <div className='mt-7 w-full flex items-center justify-center h-96 border-dotted border-2 border-sky-500'>
-                <div className='w-10/12 flex items-center justify-between gap-10 border-dotted border-2 border-sky-500'>
-                    <img className='m-auto' src={tesla} alt="" />
-                    <div className='flex flex-col items-between gap-8 justify-center border-dotted border-2 border-sky-500'>
-                        <p className=''>“We have enjoyed working with the JustGo system to setup and go live with our new membership platform. The initial effort to organise it along the lines of how our sport currently works was quick and relatively easy. The new system has already massively improved the time and effort it takes to setup and process member and club applications. It will help us to communicate with people in our sport in a much more effective way, and collect data to help us improve how our sport is governed.”</p>
-                        <div>
-                            <h3 className='text-[#4CAF4F] text-2xl'>Tim Smith</h3>
-                            <p>British Dragon Boat Racing Association</p>
-                        </div>
-                        <div className='grid grid-cols-3 md:grid-cols-9 gap-5 md:gap-10'>
-                            <Clientlogo val={cli1} />
-                            <Clientlogo val={cli2} />
-                            <Clientlogo val={cli3} />
-                            <Clientlogo val={cli7} />
-                            <Clientlogo val={cli4} />
-                            <Clientlogo val={cli5} />
-                            <Clientlogo val={cli6} />
-                            <div className='text-[#4CAF4F] col-span-2 place-self-center text-sm'>Meet all customers <span>→</span></div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div> */}
-            <div className='mt-7 w-full flex items-center justify-center '>
-                <div className='w-11/12 md:w-9/12 lg:w-9/12 flex flex-col md:flex-row items-center justify-between gap-10'>
+            <div className='mt-7 w-full flex items-center justify-center bg-[#F5F7FA]'>
+                <div className='w-11/12 md:w-9/12 mt-2 lg:w-9/12 flex flex-col md:flex-row items-center justify-between gap-10'>
                     <img className='m-auto md:m-0' src={tesla} alt="" />
                     <div className='flex flex-col items-start justify-center gap-8'>
                         <p className=''>“We have enjoyed working with the JustGo system to setup and go live with our new membership platform. The initial effort to organise it along the lines of how our sport currently works was quick and relatively easy. The new system has already massively improved the time and effort it takes to setup and process member and club applications. It will help us to communicate with people in our sport in a much more effective way, and collect data to help us improve how our sport is governed.”</p>
