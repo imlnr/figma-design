@@ -36,7 +36,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="hidden lg:flex items-center space-x-16">
-                    <Link to="#">Home</Link>
+                    <Link to="/">Home</Link>
                     <Link to="#">Service</Link>
                     <Link to="#">Feature</Link>
                     <Link to="#">Product</Link>
@@ -47,7 +47,7 @@ const Navbar = () => {
                     <div className="lg:hidden absolute top-0 left-0 h-full w-full bg-black text-black ">
                         <div className="flex flex-col items-center text-white space-y-10 p-4">
                             <div onClick={toggleMenu} className='self-end text-4xl'>x</div>
-                            <Link to="#" onClick={toggleMenu}>
+                            <Link to="/" onClick={toggleMenu}>
                                 Home
                             </Link>
                             <Link to="#" onClick={toggleMenu}>
