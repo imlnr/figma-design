@@ -22,6 +22,7 @@ import icon5 from "../assets/Icon (4).png"
 import icon6 from "../assets/Icon (5).png"
 import icon7 from "../assets/Icon (6).png"
 import Mcep from '../components/Mcep';
+import tesla from "../assets/image 9.png"
 
 const Home = () => {
     return (
@@ -81,14 +82,14 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='w-full bg-[#F5F7FA] h-72 flex items-center justify-center'>
-                <div className='w-11/12 md:w-3/4 lg:w-2/3 border-dotted border-2 border-sky-500 flex flex-col md:flex-row justify-around'>
-                    <div className='border-dotted border-2 border-sky-500 self-center mb-5 md:mb-0 md:mr-5'>
-                        <h3 className='text-2xl md:text-4xl font-semibold'>Helping a local</h3>
-                        <h3 className='text-2xl md:text-4xl font-semibold text-[#4CAF4F]'>business reinvent itself</h3>
+            <div className='w-full bg-[#F5F7FA] h-72 flex items-center justify-center mt-7'>
+                <div className='w-11/12 md:w-3/4 lg:w-2/3  flex flex-col md:flex-row justify-around'>
+                    <div className=' self-center mb-5 md:mb-0 md:mr-5'>
+                        <h3 className='text-3xl md:text-4xl font-semibold'>Helping a local</h3>
+                        <h3 className='text-3xl md:text-4xl font-semibold text-[#4CAF4F]'>business reinvent itself</h3>
                         <p className='text-sm'>We reached here with our hard work and dedication</p>
                     </div>
-                    <div className='grid grid-cols-2 gap-5 border-dotted border-2 border-sky-500'>
+                    <div className='grid grid-cols-2 gap-5'>
                         <Mcep img={icon4} num={"2,245,341"} type={"Members"} />
                         <Mcep img={icon5} num={"46,328"} type={"Clubs"} />
                         <Mcep img={icon6} num={"828,867"} type={"Event Bookings"} />
@@ -108,6 +109,54 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+            {/* <div className='mt-7 w-full flex items-center justify-center h-96 border-dotted border-2 border-sky-500'>
+                <div className='w-10/12 flex items-center justify-between gap-10 border-dotted border-2 border-sky-500'>
+                    <img className='m-auto' src={tesla} alt="" />
+                    <div className='flex flex-col items-between gap-8 justify-center border-dotted border-2 border-sky-500'>
+                        <p className=''>“We have enjoyed working with the JustGo system to setup and go live with our new membership platform. The initial effort to organise it along the lines of how our sport currently works was quick and relatively easy. The new system has already massively improved the time and effort it takes to setup and process member and club applications. It will help us to communicate with people in our sport in a much more effective way, and collect data to help us improve how our sport is governed.”</p>
+                        <div>
+                            <h3 className='text-[#4CAF4F] text-2xl'>Tim Smith</h3>
+                            <p>British Dragon Boat Racing Association</p>
+                        </div>
+                        <div className='grid grid-cols-3 md:grid-cols-9 gap-5 md:gap-10'>
+                            <Clientlogo val={cli1} />
+                            <Clientlogo val={cli2} />
+                            <Clientlogo val={cli3} />
+                            <Clientlogo val={cli7} />
+                            <Clientlogo val={cli4} />
+                            <Clientlogo val={cli5} />
+                            <Clientlogo val={cli6} />
+                            <div className='text-[#4CAF4F] col-span-2 place-self-center text-sm'>Meet all customers <span>→</span></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div> */}
+            <div className='mt-7 w-full flex items-center justify-center '>
+                <div className='w-11/12 md:w-9/12 lg:w-9/12 flex flex-col md:flex-row items-center justify-between gap-10'>
+                    <img className='m-auto md:m-0' src={tesla} alt="" />
+                    <div className='flex flex-col items-start justify-center gap-8'>
+                        <p className=''>“We have enjoyed working with the JustGo system to setup and go live with our new membership platform. The initial effort to organise it along the lines of how our sport currently works was quick and relatively easy. The new system has already massively improved the time and effort it takes to setup and process member and club applications. It will help us to communicate with people in our sport in a much more effective way, and collect data to help us improve how our sport is governed.”</p>
+                        <div>
+                            <h3 className='text-[#4CAF4F] text-xl md:text-2xl'>Tim Smith</h3>
+                            <p>British Dragon Boat Racing Association</p>
+                        </div>
+                        <div className='grid grid-cols-4 md:grid-cols-9 gap-5 md:gap-10'>
+                            <Clientlogo val={cli1} />
+                            <Clientlogo val={cli2} />
+                            <Clientlogo val={cli3} />
+                            <Clientlogo val={cli7} />
+                            <Clientlogo val={cli4} />
+                            <Clientlogo val={cli5} />
+                            <Clientlogo val={cli6} />
+                            <div className='text-[#4CAF4F] col-span-2 place-self-center text-sm md:text-base'>Meet all customers <span>→</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
 
         </div>
     );
