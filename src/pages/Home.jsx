@@ -149,7 +149,7 @@ const Home = () => {
                     </div>
                 </div>
             </div> */}
-            <div className='w-full'>
+            <div className='w-full mt-10 mb-5'>
                 <div className='w-11/12 mx-auto'>
                     <div className='text-center mt-7'>
                         <h1 className='text-2xl md:text-4xl font-semibold mb-5'>Caring is the new marketing</h1>
@@ -163,9 +163,15 @@ const Home = () => {
                 </div>
             </div>
 
-            <div>
-
+            <div className='bg-[#F5F7FA] mt-20 text-center py-4'>
+                <h1 className='text-xl md:text-3xl lg:text-5xl font-semibold mt-8'>
+                    Pellentesque suscipit <br className="hidden md:inline" /> fringilla libero eu.
+                </h1>
+                <button className='bg-[#4CAF4F] px-5 py-3 text-white rounded mt-3'>
+                    Get a Demo →
+                </button>
             </div>
+
         </div>
     );
 };
